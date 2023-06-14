@@ -1,6 +1,6 @@
 :root {
-    --cor-de-fundo: #EBECEE;
-    --branco: #fff;
+    --cor-de-fundo: #e5e7eb;
+    --branco: rgb(221, 229, 233);
     }
 
      
@@ -34,4 +34,11 @@
                 background-position: center;
                 display: inline-block;
             }
+            .lista-menu{
+                display: none;
+            }
+            .container__botao:checked ~ .lista-menu{
+                display: block;
+            }
+                    
             
